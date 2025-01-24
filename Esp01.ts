@@ -192,11 +192,10 @@ namespace picobricks {
      */
     //% weight=60
     //% blockId=picoBricksConnectWiFi
-    //% block="connect to Wi-Fi: ssid %ssid password %password"
+    //% block="Send Temp"
     //% subcategory="Wi-Fi"
-    export function connectWiFi(ssid: string, password: string) {
-        sendCommand("AT+CWMODE=1", "OK")
-        sendCommand("AT+CWJAP=\"" + ssid + "\",\"" + password + "\"", "OK", 20000)
+    export function sendTemp() {
+        serial.writeString("x3.val=3316\r\n")
     }
 
     /**
