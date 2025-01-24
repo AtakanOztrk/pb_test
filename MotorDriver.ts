@@ -23,7 +23,7 @@ enum PicoBricksDirectionType {
     Backward = 1
 }
 
-//% weight=10 color=#e30505 block="PicoBricks" icon="\uf135"
+//% weight=10 color=#e30505 block="PicoBricks" icon="\uf005"
 namespace picobricks {
     const MOTOR_DRIVER_ADDRESS = 0x22;
 
