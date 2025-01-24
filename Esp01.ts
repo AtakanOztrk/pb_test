@@ -186,12 +186,10 @@ namespace picobricks {
     }
 
     /**
-     * Connect to WiFi router.
-     * @param ssid Your WiFi SSID.
-     * @param password Your WiFi password.
+     * sendTemp
      */
     //% weight=60
-    //% blockId=picoBricksConnectWiFi
+    //% blockId=sendTemp
     //% block="Send Temp"
     //% subcategory="Wi-Fi"
     export function sendTemp() {
